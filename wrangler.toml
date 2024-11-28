@@ -2,16 +2,8 @@ name = "fediverse-alias"
 compatibility_date = "2023-01-01"
 
 routes = [
-  { pattern = "log.lu/.well-known/*", zone_name = "log.lu" },
-  { pattern = "js.cool/.well-known/*", zone_name = "js.cool" },
-  { pattern = "v0.chat/.well-known/*", zone_name = "v0.chat" },
-  { pattern = "xn--wkua.xn--6qq986b3xl/.well-known/*", zone_name = "xn--wkua.xn--6qq986b3xl" },
-  { pattern = "sh.gg/.well-known/*", zone_name = "sh.gg" },
-  { pattern = "css.fund/.well-known/*", zone_name = "css.fund" },
-  { pattern = "kaiyuan.fund/.well-known/*", zone_name = "kaiyuan.fund" },
-  { pattern = "v0.md/.well-known/*", zone_name = "v0.md" },
-  { pattern = "willin.org/.well-known/*", zone_name = "willin.org" },
-  { pattern = "willin.wang/.well-known/*", zone_name = "willin.wang" }
+  { pattern = "tedps.tk/.well-known/*", zone_name = "tedps.tk" },
+  { pattern = "tedsmc.tk/.well-known/*", zone_name = "tedsmc.tk" }
 ]
 
 # [vars]
@@ -28,4 +20,4 @@ routes = [
 [[d1_databases]]
 binding = "DB"
 database_name = "dns"
-database_id = "20204091-f55f-430d-a100-2292d8ea305a"
+database_id = "9e272ec1-97d4-4d4a-ace6-cc081f662ead"
