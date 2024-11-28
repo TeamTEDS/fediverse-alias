@@ -1,4 +1,4 @@
-const INSTANCE = 'log.lu';
+const INSTANCE = 'floss.social';
 
 const handler: ExportedHandler = {
   async fetch(req, env, ctx) {
